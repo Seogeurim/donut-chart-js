@@ -1,5 +1,5 @@
 {
-  "name": "donutas",
+  "name": "donut-chart-js",
   "version": "1.0.0",
   "description": "Simple donut chart with canvas",
   "main": "dist/donut-chart.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Seogeurim/donutas.git"
+    "url": "https://github.com/Seogeurim/donut-chart-js.git"
   },
   "keywords": [
     "canvas",
@@ -26,10 +26,10 @@
   "author": "Seogeurim <geulims@naver.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Seogeurim/donutas/issues",
+    "url": "https://github.com/Seogeurim/donut-chart-js/issues",
     "email": "geulims@naver.com"
   },
-  "homepage": "https://github.com/Seogeurim/donutas#readme",
+  "homepage": "https://github.com/Seogeurim/donut-chart-js#readme",
   "devDependencies": {
     "@babel/core": "^7.14.8",
     "@babel/preset-env": "^7.14.8",

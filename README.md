@@ -1,1 +1,1 @@
-# donut-chart
+# Donut Chart JS
