@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="../dist/donut-chart.js"></script>
+  <title>Donut Chart Example</title>
+</head>
+<body>
+  <canvas id="myChart"></canvas>
+
+  <script>
+    const data = {
+      생활: 536460,
+      '의료/건강': 125300,
+      '쇼핑/뷰티': 56000,
+      교통: 45340,
+      식비: 40540,
+      '문화/여가': 20800,
+      미분류: 10200,
+    };
+
+    const colors = [
+      '#4A6CC3',
+      '#6ED5EB',
+      '#4CB8B8',
+      '#94D3CC',
+      '#4CA1DE',
+      '#D092E2',
+      '#817DCE',
+    ];
+
+    const options = {
+      data,
+      colors,
+      holeSize: 0.6,
+    };
+
+    new DonutChart(document.getElementById('myChart'), options);
+  </script>
+</body>
+</html>
