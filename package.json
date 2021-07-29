@@ -1,0 +1,50 @@
+{
+  "name": "donut-chart",
+  "version": "1.0.0",
+  "description": "Simple donut chart",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .js .",
+    "build": "webpack"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seogeurim/donut-chart.git"
+  },
+  "keywords": [
+    "canvas",
+    "chart",
+    "graphs",
+    "html5",
+    "pie chart",
+    "donut chart"
+  ],
+  "author": "Seogeurim <geulims@naver.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Seogeurim/donut-chart/issues"
+  },
+  "homepage": "https://github.com/Seogeurim/donut-chart#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^6.2.0",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2",
+    "sass": "^1.36.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
