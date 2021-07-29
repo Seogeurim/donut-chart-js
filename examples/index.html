@@ -11,30 +11,17 @@
   <canvas id="myChart" width="500px" height="500px"></canvas>
 
   <script>
-    const data = {
-      생활: 536460,
-      '의료/건강': 125300,
-      '쇼핑/뷰티': 56000,
-      교통: 45340,
-      식비: 40540,
-      '문화/여가': 20800,
-      미분류: 10200,
-    };
-
-    const colors = [
-      '#4A6CC3',
-      '#6ED5EB',
-      '#4CB8B8',
-      '#94D3CC',
-      '#4CA1DE',
-      '#D092E2',
-      '#817DCE',
+    const data = [
+      { label: 'red', value: 120, color: '#F15F5F' },
+      { label: 'green', value: 250, color: '#BCE55C' },
+      { label: 'blue', value: 180, color: '#B2CCFF' },
+      { label: 'yellow', value: 70, color: '#FFE08C' },
     ];
 
     const options = {
       data,
-      colors,
       holeSize: 0.6,
+      animationSpeed: 0.5,
     };
 
     new DonutChart(document.getElementById('myChart'), options);
