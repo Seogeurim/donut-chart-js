@@ -1,6 +1,6 @@
 {
   "name": "donut-chart-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple donut chart with canvas",
   "main": "dist/donut-chart.js",
   "scripts": {
